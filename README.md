@@ -117,17 +117,6 @@ Se probó también estimar la atención de cajas solo con la hora de las factura
 - `python tests/validar_con_ciw.py` (requiere `pip install ciw`): validación cruzada con la biblioteca independiente Ciw.
 - `node tests/generar_archivos_ejemplo.js`: regenera las plantillas y los datos de ejemplo.
 
-## Proyectos de código abierto utilizados
-
-| Proyecto | Uso | Licencia |
-|---|---|---|
-| [Apache ECharts](https://github.com/apache/echarts) | Gráficas interactivas | Apache-2.0 |
-| [PapaParse](https://github.com/mholt/PapaParse) | Lectura de CSV grandes por bloques | MIT |
-| [SheetJS](https://github.com/SheetJS/sheetjs) | Lectura de Excel | Apache-2.0 |
-| [javascript-lp-solver](https://github.com/JWally/jsLPSolver) | Programación entera de turnos | Unlicense |
-| [Ciw](https://github.com/CiwPython/Ciw) | Validación cruzada y exportación de escenarios a Python | MIT |
-| [Prophet](https://github.com/facebook/prophet) | Base del modelo armónico; exportación de scripts de pronóstico | MIT |
-| [pyworkforce](https://github.com/rodrigo-arenas/pyworkforce) | Exportación de requerimientos para turnos con OR-Tools | MIT |
 
 Desde la aplicación se generan scripts de Python listos para usar con Ciw (validar un escenario), Prophet (pronóstico con feriados oficiales del país) y pyworkforce (turnos de varias semanas con OR-Tools).
 
@@ -169,4 +158,4 @@ docs/capturas/        Capturas de pantalla del README
 
 ## Licencia
 
-© 2026 Christian Ivan. Todos los derechos reservados. El código se publica para que puedas consultarlo y probar la aplicación. No se permite copiarlo, modificarlo, distribuirlo ni usarlo en una empresa u organización sin autorización escrita del autor; para pedirla, escribe por [GitHub](https://github.com/christianivan42-dotcom). Detalle en [LICENSE](LICENSE). Las bibliotecas de `vendor/` conservan sus propias licencias.
+© 2026 Christian Ivan.
