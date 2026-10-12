@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Simulador de Colas</title>
+<meta name="description" content="Mide tu operación con los registros de tu sistema, simula la fila y calcula el personal por hora con métodos validados de teoría de colas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="appbar">
+  <div class="appbar-in">
+    <button type="button" class="brand" id="brand" aria-label="Ir al paso actual">
+      <svg class="brand-mark" viewBox="0 0 30 30" aria-hidden="true">
+        <rect class="bm-c" x="22" y="5" width="5" height="20" rx="2"></rect>
+        <circle class="bm-p" cx="16.5" cy="15" r="3.2"></circle>
+        <circle class="bm-p" cx="9.5" cy="15" r="3.2" opacity="0.65"></circle>
+        <circle class="bm-p" cx="2.8" cy="15" r="2.6" opacity="0.35"></circle>
+      </svg>
+      <span class="brand-name">Simulador de Colas</span>
+    </button>
+    <span class="ws-name" id="ws-name" hidden></span>
+    <div class="appbar-actions">
+      <button id="guide-btn" class="btn btn-ghost btn-sm" type="button" aria-pressed="false" aria-controls="guide">Guía</button>
+      <button id="theme-btn" class="btn btn-ghost btn-sm" type="button">Tema: sistema</button>
+    </div>
+  </div>
+</header>
+<div class="shell" id="shell">
+  <nav class="rail" id="rail" aria-label="Pasos"></nav>
+  <main class="main" id="main">
+    <div class="page" id="view-flow"></div>
+    <div class="page wide" id="view-tools" hidden></div>
+    <noscript><p>Esta herramienta necesita JavaScript habilitado en el navegador.</p></noscript>
+  </main>
+  <aside class="guide" id="guide" hidden aria-label="Guía"></aside>
+</div>
+<script>window.QS_VENDOR = { xlsx: 'vendor/xlsx.full.min.js' };</script>
+<script src="vendor/echarts.min.js"></script>
+<script src="vendor/papaparse.min.js"></script>
+<script src="vendor/solver.js"></script>
+<script src="js/util.js"></script>
+<script src="js/rng.js"></script>
+<script src="js/analytic.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/presets.js"></script>
+<script src="js/sectors.js"></script>
+<script src="js/staffing.js"></script>
+<script src="js/data.js"></script>
+<script src="js/measure.js"></script>
+<script src="js/analysis.js"></script>
+<script src="js/forecast.js"></script>
+<script src="js/exporters.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/anim.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/help.js"></script>
+<script src="js/ui-sim.js"></script>
+<script src="js/ui-analytic.js"></script>
+<script src="js/ui-staff.js"></script>
+<script src="js/ui-data.js"></script>
+<script src="js/ui-guide.js"></script>
+<script src="js/ui-wizard.js"></script>
+<script src="js/ui-capture.js"></script>
+<script src="js/ui-standard.js"></script>
+<script src="js/ui-flow.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

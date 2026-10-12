@@ -1,0 +1,12 @@
+# Dependencias y salidas locales
+node_modules/
+__pycache__/
+*.pyc
+*.log
+
+# Sistema operativo y editores
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/

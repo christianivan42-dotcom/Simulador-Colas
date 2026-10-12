@@ -1,0 +1,5 @@
+# Texto con fin de línea LF en el repositorio; imágenes y PDF como binarios
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary

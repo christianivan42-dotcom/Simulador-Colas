@@ -1,0 +1,28 @@
+Simulador de Colas
+Copyright (c) 2026 Christian Ivan (https://github.com/christianivan42-dotcom)
+Todos los derechos reservados.
+
+Simulador de Colas es propiedad de su autor. El código fuente, la documentación y los
+demás materiales de este repositorio (el "Software") se publican solo para que puedan
+consultarse y para que la aplicación pueda probarse.
+
+Se permite, sin autorización previa:
+  - Ver el código en GitHub y usar las funciones que GitHub ofrece según sus Términos
+    de Servicio (por ejemplo, verlo y bifurcarlo dentro de GitHub).
+  - Probar la aplicación publicada por el autor para evaluarla, sin fines comerciales.
+
+No se permite, sin autorización previa y por escrito del autor:
+  - Copiar, modificar, adaptar o traducir el Software, ni crear obras derivadas de él.
+  - Distribuir, publicar, sublicenciar, vender o alquilar el Software, en todo o en parte.
+  - Usar el Software de forma habitual dentro de una empresa u organización, o con
+    fines comerciales.
+
+Componentes de terceros: las bibliotecas de la carpeta vendor/ (Apache ECharts,
+PapaParse, SheetJS y javascript-lp-solver) se distribuyen con sus propias licencias,
+incluidas en esa carpeta, y no quedan sujetas a este aviso.
+
+EL SOFTWARE SE ENTREGA "TAL CUAL", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA.
+EN NINGÚN CASO EL AUTOR SERÁ RESPONSABLE DE DAÑOS O PERJUICIOS DERIVADOS DE SU USO.
+
+Para solicitar una licencia de uso, escribe al autor desde su perfil de GitHub:
+https://github.com/christianivan42-dotcom

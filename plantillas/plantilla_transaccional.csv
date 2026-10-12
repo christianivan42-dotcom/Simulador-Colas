@@ -1,0 +1,5 @@
+﻿llegada,inicio_atencion,fin_atencion,caja,tipo_cliente,abandono
+2025-03-14 09:02:11,2025-03-14 09:02:40,2025-03-14 09:07:55,C1,General,no
+2025-03-14 09:03:05,2025-03-14 09:04:12,2025-03-14 09:11:30,C2,Preferencial,no
+2025-03-14 09:03:40,,,,General,si
+2025-03-14 09:05:58,2025-03-14 09:07:55,2025-03-14 09:12:02,C1,General,no

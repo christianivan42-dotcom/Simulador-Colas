@@ -1,0 +1,12 @@
+﻿campo,nombre,necesidad,descripcion,ejemplo
+fecha_hora,Fecha y hora de la transacción,obligatorio,"Cuándo se registró. En casi todos los sistemas es el momento en que termina la atención (al emitir la factura, el ticket o el recibo). Puede venir en una columna o en dos (fecha y hora).",2026-09-14 10:32:05
+punto,Quién atiende,obligatorio,"Usuario que creó el documento (la persona que atendió). Si el sistema no lo guarda: la caja, ventanilla, módulo o terminal.",MPEREZ
+tipo,Tipo de transacción,obligatorio,"Qué se hizo: venta de contado, venta a crédito, pago de cuota, entrada, depósito, consulta…",CREDITO
+documento,Número de documento,recomendado,"Factura, recibo (REC), ticket, orden o turno. Evita contar dos veces y permite enlazar áreas.",F-001245
+cliente,Cliente,recomendado,"Código del cliente: junta los documentos de una misma visita (por ejemplo, dos cuotas pagadas juntas).",CL-88410
+area,Área,recomendado,Solo si un mismo archivo trae varias áreas y los tipos se repiten entre ellas.,Facturación
+relacionado,Documento relacionado,opcional,"En un recibo, la factura que paga; en una entrega, la orden. Mide el tiempo entre un área y la siguiente.",F-001245
+inicio,Hora de inicio de la atención,opcional,Hora en que se abrió el documento o se llamó al cliente. Con ella el tiempo de atención se mide exacto.,2026-09-14 10:24:40
+llegada,Hora de llegada (turno),opcional,Del turnero o del registro de llegada. Con ella la espera se mide exacta.,2026-09-14 10:15:02
+estado,Estado,opcional,"Atendido, abandonado (se fue sin ser atendido) o anulado.",atendido
+monto,Monto,opcional,Para relacionar el personal con la venta o la cobranza.,1250.00
